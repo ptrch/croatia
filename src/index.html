@@ -6,13 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Отдых в Хорвании</title>
-    <link rel="stylesheet" href="./vendor/normalize.css">
-    <link rel="stylesheet" href="./pages/index.css">
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>">
 </head>
 
 <body class="page">
     <header class="header page__header">
-        <img src="images/Logo_cro.png" alt="Логотип сайта" class="header__logo">
+        <img src="<%=require('./images/Logo_cro.png')%>" alt="Логотип сайта" class="header__logo">
         <!-- <div class="header__lang-nav">
             <a class="header__lang header__lang_type_underline link" href="#">Ru</a>
             <a class="header__lang link" href="#">En</a>
@@ -23,7 +22,7 @@
             <h1 class="lead__title">Отдых в Хорватии</h1>
             <p class="lead__subtitle">Прекрасная страна нашими влюбленными глазами</p>
             <figure class="lead__figure">
-                <img class="lead__image" src="./images/1/croatia.jpg" alt="Трогир яхт-клуб">
+                <img class="lead__image" src="<%=require('./images/1/croatia.jpg')%>" alt="Трогир яхт-клуб">
                 <figcaption class="lead__caption">Трогир - один из самых красивых городов</figcaption>
             </figure>
         </section>
@@ -51,18 +50,18 @@
             </ul>
         </section>
         <section class="photo content__photo">
-            <img class="photo__item" src="./images/1/ship.jpg" alt="корабль">
-            <img class="photo__item" src="./images/1/yahta.jpg" alt="на яхте">
-            <img class="photo__item" src="./images/1/yahta02.jpg" alt="закат">
-            <img class="photo__item" src="./images/1/leha.jpg" alt="Алексей">
-            <img class="photo__item" src="./images/1/ada.jpg" alt="водопад Крка">
-            <img class="photo__item" src="./images/1/modro.jpg" alt="вид на горное озеро">
-            <img class="photo__item" src="./images/1/rozika.jpg" alt="закат">
-            <img class="photo__item" src="./images/1/sea.jpg" alt="море">
-            <img class="photo__item" src="./images/1/sea2.jpg" alt="море">
-            <img class="photo__item" src="./images/1/night.jpg" alt="вид на море">
-            <img class="photo__item" src="./images/1/bike.jpg" alt="велосипедисты">
-            <img class="photo__item" src="./images/1/skradin.jpg" alt="вид на природный парк крка">
+            <img class="photo__item" src="<%=require('./images/1/ship.jpg')%>" alt="корабль">
+            <img class="photo__item" src="<%=require('./images/1/yahta.jpg')%>" alt="на яхте">
+            <img class="photo__item" src="<%=require('./images/1/yahta02.jpg')%>" alt="закат">
+            <img class="photo__item" src="<%=require('./images/1/leha.jpg')%>" alt="Алексей">
+            <img class="photo__item" src="<%=require('./images/1/ada.jpg')%>" alt="водопад Крка">
+            <img class="photo__item" src="<%=require('./images/1/modro.jpg')%>" alt="вид на горное озеро">
+            <img class="photo__item" src="<%=require('./images/1/rozika.jpg')%>" alt="закат">
+            <img class="photo__item" src="<%=require('./images/1/sea.jpg')%>" alt="море">
+            <img class="photo__item" src="<%=require('./images/1/sea2.jpg')%>" alt="море">
+            <img class="photo__item" src="<%=require('./images/1/night.jpg')%>" alt="вид на море">
+            <img class="photo__item" src="<%=require('./images/1/bike.jpg')%>" alt="велосипедисты">
+            <img class="photo__item" src="<%=require('./images/1/skradin.jpg')%>" alt="вид на природный парк крка">
 
         </section>
         <section class="places content__places">
@@ -73,7 +72,7 @@
                     <a class="place__url link" href="http://trogir.hr/" target="_blank">trogir.hr</a>
                     
                 </div>
-                <img class="place__image" src="./images/1/trogir.jpg" alt="трогир">
+                <img class="place__image" src="<%=require('./images/1/trogir.jpg')%>" alt="трогир">
                 <div class="place__text">
                     <p class="place__paragraph">Старый город Трогир, в котором я чувствую себя частью чего-то большого,
                          мудрого и прекрасного. Я растворяюсь в его миниатюрном величии. Улочки этого города я знаю наизусть 
@@ -93,7 +92,7 @@
                     <a class="place__url link" href="http://www.npkrka.hr/"
                         target="_blank">www.npkrka.hr</a>
                 </div>
-                <img class="place__image" src="./images/1/krka1.jpg" alt="крка">
+                <img class="place__image" src="<%=require('./images/1/krka1.jpg')%>" alt="крка">
                 <div class="place__text">
                     <p class="place__paragraph">Река Крка известна как самая красивая из карстовых рек, 
                         протекающая по каньону, образуя на своем пути к морю многочисленные озера,
@@ -114,7 +113,7 @@
                     <a class="place__url link" href="https://www.tvrdavaklis.com/"
                         target="_blank">www.tvrdavaklis.com</a>
                 </div>
-                <img class="place__image" src="./images/1/klis.jpg" alt="алтай">
+                <img class="place__image" src="<%=require('./images/1/klis.jpg')%>" alt="алтай">
                 <div class="place__text">
                     <p class="place__paragraph">Сейчас крепость знаменита в первую очередь тем, что там снимали 
                         эпизоды сериала "Игры престолов". За счет этого хорошо облагородили территорию и сделали музей.
@@ -130,7 +129,7 @@
                     <a class="place__url link" href="https://split.hr/o-splitu/o-gradu"
                         target="_blank">split.hr</a>
                 </div>
-                <img class="place__image" src="./images/1/split.jpg" alt="Город Слит">
+                <img class="place__image" src="<%=require('./images/1/split.jpg')%>" alt="Город Слит">
                 <div class="place__text">
                     <p class="place__paragraph">Городу Сплит недавно исполнилось 1700 лет. Император Диоклетиан в
                          305 году приказал построить здесь дворец площадью почти 30 тысяч квадратных метров.
@@ -148,7 +147,7 @@
                     <p class="place__url-heading">URL</p>
                     <a class="place__url link" href="http://www.solin.hr/" target="_blank">www.solin.hr/</a>
                 </div>
-                <img class="place__image" src="./images/1/solin.jpg" alt="Солин">
+                <img class="place__image" src="<%=require('./images/1/solin.jpg')%>" alt="Солин">
                 <div class="place__text">
                     <p class="place__paragraph">Руины древнего города Салона (сейчас Солин), расположившиеся среди
                          виноградников на северо-востоке Сплита, одна из самых интересных археологических 
@@ -166,13 +165,13 @@
             <p class="content-subtitle">Остров Чиово и окресности</p>
             <div class="video__container">
                 <a class="video__item video__item_trogir" href="https://youtu.be/zfyjaxnLvHQ" target="_blank">
-                    <img class="video__icon video__icon_play" src="./images/icon_play.svg" alt="играть">
+                    <img class="video__icon video__icon_play" src="<%=require('./images/icon_play.svg" alt="играть">
                     <p class="video__duration">4:59</p>
                     <p class="video__title">Trogir Croatia | 4K</p>
                     <p class="video__subtitle">SunnyHoliday1235</p>
                 </a>
                 <a class="video__item video__item_okrug" href="https://youtu.be/0-DFqOmWghQ" target="_blank">
-                    <img class="video__icon video__icon_play" src="./images/icon_play.svg" alt="играть">
+                    <img class="video__icon video__icon_play" src="<%=require('./images/icon_play.svg" alt="играть">
                     <p class="video__duration">4:24</p>
                     <p class="video__title">Visit Okrug | 2016</p>
                     <p class="video__subtitle">promo video by Dino Čaljkušić</p>
@@ -185,14 +184,14 @@
             <p class="content-subtitle">Наши друзья, разделившие с нами любовь к отдыху.</p>
             <div class="comments__container">
                 <div class="comments__comment">
-                    <img class="comments__image" src="./images/1/golosov.jpg" alt="фото туриста">
+                    <img class="comments__image" src="<%=require('./images/1/golosov.jpg')%>" alt="фото туриста">
                     <blockquote class="comments__quote">«Море рядом,тень в саду под лимоном, чистейший воздух – 
                         что еще нужно для полного счастья? »</blockquote>
                     <p class="comments__autor">Филипп Голосов</p>
 
                 </div>
                 <div class="comments__comment">
-                    <img class="comments__image" src="./images/1/lilia.jpg" alt="фото туриста">
+                    <img class="comments__image" src="<%=require('./images/1/lilia.jpg')%>" alt="фото туриста">
                     <blockquote class="comments__quote">«Спокойствие особо актуально в пик сезона, когда на 
                         городском пляже все лежат друг у друга на головах, Здесь тихо, сосны и тень.»
                     </blockquote>
@@ -200,7 +199,7 @@
 
                 </div>
                 <div class="comments__comment">
-                    <img class="comments__image" src="./images/1/victor.jpg" alt="фото туриста">
+                    <img class="comments__image" src="<%=require('./images/1/victor.jpg')%>" alt="фото туриста">
                     <blockquote class="comments__quote">«В Хорватии был в первый раз, все было просто супер- прозрачное море прям под окнами, 
                         погода великолепная, природа волшебная, воздух — словами не описать!»</blockquote>
                     <p class="comments__autor">Виктор Известный</p>
@@ -232,6 +231,7 @@
         <p class="footer__copyright">&copy; 2020. Петриченко Александр</p>
     </footer>
     </main>
+    <script src="<%= htmlWebpackPlugin.files.js %>"></script>    
 </body>
 
 </html>
