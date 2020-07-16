@@ -1,0 +1,18 @@
+.video__item_okrug {
+    background: rgba(0, 0, 0, .2);
+    background-image: url(../../../../images/1/okrug.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    border-radius: 5px;
+    
+}
+
+.video__item_okrug:hover{
+    background: rgba(0, 0, 0, .5);
+    background-image: url(../../../../images/1/okrug.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    transition: linear .3s;
+}

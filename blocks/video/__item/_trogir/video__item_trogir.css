@@ -1,0 +1,18 @@
+.video__item_trogir {
+    background: rgba(0, 0, 0, .2);
+    background-image: url(../../../../images/1/togir.png);
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    border-radius: 5px;
+    background-size: cover;
+}
+
+.video__item_trogir:hover{
+    background: rgba(0, 0, 0, .5);
+    background-image: url(../../../../images/1/togir.png);
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    transition: linear .3s;
+    background-size: cover;
+}
+
